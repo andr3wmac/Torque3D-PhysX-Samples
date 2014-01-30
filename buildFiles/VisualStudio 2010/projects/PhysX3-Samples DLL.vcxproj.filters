@@ -2850,9 +2850,6 @@
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\Cloth\Px3ClothShape.cpp">
       <Filter>Source Files\Engine\T3D\physics\physx3\Cloth</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Static.cpp">
-      <Filter>Source Files\Engine\T3D\physics\physx3</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physicsCloth.cpp">
       <Filter>Source Files\Engine\T3D\physics</Filter>
     </ClCompile>
@@ -5368,9 +5365,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\Cloth\Px3ClothShape.h">
       <Filter>Source Files\Engine\T3D\physics\physx3\Cloth</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Static.h">
-      <Filter>Source Files\Engine\T3D\physics\physx3</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physicsCloth.h">
       <Filter>Source Files\Engine\T3D\physics</Filter>

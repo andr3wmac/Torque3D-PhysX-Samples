@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.69.0 r60995</authoring_tool>
     </contributor>
-    <created>2014-01-27T22:52:16</created>
-    <modified>2014-01-27T22:52:16</modified>
+    <created>2014-01-29T22:02:22</created>
+    <modified>2014-01-29T22:02:22</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -231,6 +231,16 @@
             </technique_common>
           </bind_material>
         </instance_controller>
+      </node>
+      <node id="Collision-0" name="Collision-0" type="NODE">
+        <matrix sid="transform">0.1856856 0 0 -0.7746658 0 0.2194532 0 -3.452063 0 0 -7.358648 7.035214 0 0 0 1</matrix>
+        <instance_geometry url="#Cylinder-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="FlagpoleMat-material" target="#FlagpoleMat-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
       </node>
     </visual_scene>
   </library_visual_scenes>

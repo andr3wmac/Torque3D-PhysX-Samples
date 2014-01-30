@@ -129,6 +129,7 @@ new SimGroup(MissionGroup) {
       decalType = "Collision Mesh";
       allowPlayerStep = "1";
       clothEnabled = "1";
+      enablePhysicsRep = "0";
       renderNormals = "0";
       forceDetail = "-1";
       position = "-12.9206 18.7792 -1.95205";
@@ -146,6 +147,7 @@ new SimGroup(MissionGroup) {
       decalType = "Collision Mesh";
       allowPlayerStep = "1";
       clothEnabled = "1";
+      enablePhysicsRep = "0";
       renderNormals = "0";
       forceDetail = "-1";
       position = "5.45116 19.3109 -0.0707464";
@@ -163,6 +165,7 @@ new SimGroup(MissionGroup) {
       decalType = "Collision Mesh";
       allowPlayerStep = "1";
       clothEnabled = "1";
+      enablePhysicsRep = "0";
       renderNormals = "0";
       forceDetail = "-1";
       position = "0.217305 7.75023 -0.636831";
@@ -180,6 +183,7 @@ new SimGroup(MissionGroup) {
       decalType = "Collision Mesh";
       allowPlayerStep = "1";
       clothEnabled = "1";
+      enablePhysicsRep = "0";
       renderNormals = "0";
       forceDetail = "-1";
       position = "-5.5715 36.2118 -1.34578";

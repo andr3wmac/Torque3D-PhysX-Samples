@@ -278,7 +278,6 @@
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Collision.cpp" />
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Player.cpp" />
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Plugin.cpp" />
-    <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Static.cpp" />
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Stream.cpp" />
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Utils.cpp" />
     <ClCompile Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3World.cpp" />
@@ -294,7 +293,6 @@
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Collision.h" />
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Player.h" />
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Plugin.h" />
-    <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Static.h" />
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Stream.h" />
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3Utils.h" />
     <ClInclude Include="..\..\..\..\..\Engine\source\T3D\physics\physx3\px3World.h" />
