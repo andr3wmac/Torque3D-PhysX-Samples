@@ -21,7 +21,7 @@
 //-----------------------------------------------------------------------------
 
 // Set the name of our application
-$appName = "testPhysX3";
+$appName = "PhysX3 Samples";
 
 // The directory it is run from
 $defaultGame = "scripts";
