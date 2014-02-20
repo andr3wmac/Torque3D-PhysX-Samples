@@ -2,17 +2,17 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{89cb096e-0d20-4b07-8cfc-67fcaf56e36d}</UniqueIdentifier>
+         <UniqueIdentifier>{f7eb1cd1-a1bb-43c5-8643-08939be1a501}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\lib">
-         <UniqueIdentifier>{eeab95ff-ae32-43a8-a02c-1ef7b9baa6a0}</UniqueIdentifier>
+         <UniqueIdentifier>{023b3b50-8e35-4836-b761-7acbd57616f2}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\lib\include">
-         <UniqueIdentifier>{f3e8be2a-1f81-4b1c-a1dd-4ea563f29ded}</UniqueIdentifier>
+         <UniqueIdentifier>{5e8bf42a-9c7d-49b6-ac80-eae32a1bb5ab}</UniqueIdentifier>
       </Filter>
       <Filter Include="Source Files\lib\src">
-         <UniqueIdentifier>{f9ab2305-1eb6-4d79-88da-8b6ae39ad8a2}</UniqueIdentifier>
+         <UniqueIdentifier>{e00de7b2-eb81-47c3-8a0b-85cd24900eca}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>
@@ -21,18 +21,18 @@
     </ResourceCompile>
   </ItemGroup>
    <ItemGroup>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\libogg\src\bitwise.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\libogg\src\bitwise.c">
          <Filter>Source Files\lib\src</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\libogg\src\framing.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\libogg\src\framing.c">
          <Filter>Source Files\lib\src</Filter>
       </ClCompile>
    </ItemGroup>
    <ItemGroup>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\libogg\include\ogg\ogg.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\libogg\include\ogg\ogg.h">
          <Filter>Source Files\lib\include</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\libogg\include\ogg\os_types.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\libogg\include\ogg\os_types.h">
          <Filter>Source Files\lib\include</Filter>
       </ClInclude>
    </ItemGroup>

@@ -46,13 +46,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../../Engine/lib//compiled/$(Configuration).$(Platform)/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Andrew/Documents/Projects/Torque3D-PhysX3/Engine/lib//compiled/$(Configuration).$(Platform)/</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Link/VC2010.$(Configuration).$(PlatformName)/$(ProjectName)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ljpeg_DEBUG</TargetName>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'">../../../../../Engine/lib//compiled/$(Configuration).$(Platform)/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'">C:/Users/Andrew/Documents/Projects/Torque3D-PhysX3/Engine/lib//compiled/$(Configuration).$(Platform)/</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'">../../Link/VC2010.$(Configuration).$(PlatformName)/$(ProjectName)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Optimized Debug|Win32'">ljpeg_OPTIMIZEDDEBUG</TargetName>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../../Engine/lib//compiled/$(Configuration).$(Platform)/</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Andrew/Documents/Projects/Torque3D-PhysX3/Engine/lib//compiled/$(Configuration).$(Platform)/</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../Link/VC2010.$(Configuration).$(PlatformName)/$(ProjectName)/</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ljpeg</TargetName>
   </PropertyGroup>
@@ -61,7 +61,7 @@
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>../../../../../Engine/lib/ljpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/Users/Andrew/Documents/Projects/Torque3D-PhysX3/Engine/lib/ljpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>TORQUE_DEBUG;TORQUE_DEBUG_GUARD;D3D_DEBUG_INFO;TORQUE_NET_STATS;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -98,7 +98,7 @@
       <Optimization>Full</Optimization>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>../../../../../Engine/lib/ljpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/Users/Andrew/Documents/Projects/Torque3D-PhysX3/Engine/lib/ljpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>TORQUE_DEBUG;TORQUE_DEBUG_GUARD;D3D_DEBUG_INFO;TORQUE_NET_STATS;UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -134,7 +134,7 @@
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Full</Optimization>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>../../../../../Engine/lib/ljpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/Users/Andrew/Documents/Projects/Torque3D-PhysX3/Engine/lib/ljpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>UNICODE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -167,307 +167,307 @@
 
                
                
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcapimin.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcapimin.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcapistd.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcapistd.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jccoefct.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jccoefct.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jccolor.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jccolor.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcdctmgr.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcdctmgr.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jchuff.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jchuff.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jchuff.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jchuff.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcinit.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcinit.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmainct.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcmainct.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmarker.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcmarker.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcmaster.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcmaster.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcomapi.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcomapi.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.cw.mac.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jconfig.cw.mac.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.cw.win.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jconfig.cw.win.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.gcc.linux.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jconfig.gcc.linux.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jconfig.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jconfig.vc.win.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jconfig.vc.win.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcparam.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcparam.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcphuff.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcphuff.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcprepct.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcprepct.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jcsample.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jcsample.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jctrans.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jctrans.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdapimin.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdapimin.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdapistd.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdapistd.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdatadst.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdatadst.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdatasrc.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdatasrc.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdcoefct.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdcoefct.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdcolor.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdcolor.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jdct.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdct.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jddctmgr.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jddctmgr.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdhuff.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdhuff.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jdhuff.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdhuff.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdinput.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdinput.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmainct.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdmainct.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmarker.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdmarker.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmaster.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdmaster.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdmerge.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdmerge.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdphuff.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdphuff.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdpostct.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdpostct.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdsample.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdsample.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jdtrans.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jdtrans.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jerror.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jerror.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jerror.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jerror.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctflt.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jfdctflt.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctfst.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jfdctfst.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jfdctint.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jfdctint.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctflt.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jidctflt.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctfst.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jidctfst.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctint.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jidctint.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jidctred.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jidctred.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jinclude.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jinclude.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jmemmgr.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jmemmgr.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jmemnobs.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jmemnobs.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jmemsys.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jmemsys.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jmorecfg.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jmorecfg.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jpegint.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jpegint.h" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jpeglib.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jpeglib.h" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jquant1.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jquant1.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jquant2.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jquant2.c" />      
 			         
 			      
    
       
-               			                     <ClCompile Include="..\..\..\..\..\Engine\lib\ljpeg\jutils.c" />      
+               			                     <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jutils.c" />      
 			         
 			      
    
       
-               			                     <ClInclude Include="..\..\..\..\..\Engine\lib\ljpeg\jversion.h" />      
+               			                     <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\ljpeg\jversion.h" />      
 			         
 			      
    

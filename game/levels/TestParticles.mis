@@ -81,7 +81,7 @@ new SimGroup(MissionGroup) {
          outdoorWeight = "100";
          isAIControlled = "0";
          dataBlock = "SpawnSphereMarker";
-         position = "1.88086 0 0.882563";
+         position = "-13.0827 1.84467 0.882563";
          rotation = "1 0 0 0";
          scale = "1 1 1";
          canSave = "1";
@@ -104,16 +104,6 @@ new SimGroup(MissionGroup) {
       canSave = "1";
       canSaveDynamicFields = "1";
    };
-
-   new Px3ParticleEmitter() {
-      position = "0 0 2";
-      rotation = "1 0 0 0";
-      canSave = "1";
-      canSaveDynamicFields = "1";
-      Collision = "0";
-      Wind = "0";
-   };
-
    new ForestWindEmitter() {
       position = "-4.52946 -21.6199 0.578596";
       rotation = "1 0 0 0";
@@ -132,6 +122,84 @@ new SimGroup(MissionGroup) {
       turbulenceStrength = "0.25";
       turbulenceFrequency = "2";
       hasMount = "0";
+   };
+   new Px3ParticleEmitterNode() {
+      active = "1";
+      emitter = "PhysicsEmitter";
+      velocity = "10";
+      dataBlock = "DefaultEmitterNodeData";
+      position = "0.543911 -1.38042 12.6913";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ConvexShape() {
+      Material = "Grid512_Blue_Mat";
+      position = "0.287823 1.17415 5.07456";
+      rotation = "0.00315431 0.330159 0.94392 172.192";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      surface = "-0.145602 0 -0 0.989343 -1.25201e-005 -3.61953e-006 -0.0882805";
+      surface = "0 0.999947 0.0102979 0 -6.78041e-006 4.42535e-006 -1.50885";
+      surface = "0.707107 0 0 0.707106 -2.26463e-005 4.9684 -6.27181e-006";
+      surface = "0 -0.707101 0.707113 -0 3.46655e-006 -4.9684 -1.59713";
+      surface = "0.500004 0.500004 -0.499996 0.499996 -2.89302 -1.62333 -1.05948";
+      surface = "0.500003 -0.500001 0.499997 0.499999 2.89301 -1.62333 -1.05948";
+   };
+   new Px3ParticleEmitterNode() {
+      active = "1";
+      emitter = "PhysicsEmitter";
+      velocity = "10";
+      dataBlock = "DefaultEmitterNodeData";
+      position = "11.7571 -0.660913 19.6524";
+      rotation = "1 0 0 15.0024";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+   };
+   new ConvexShape() {
+      Material = "Grid512_Blue_Mat";
+      position = "7.96952 -0.631892 15.0375";
+      rotation = "-0.0554859 0.998416 -0.00935016 43.4705";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      surface = "0 0 0 1 -9.75177e-009 8.24244e-009 0.277984";
+      surface = "0 1 0 0 2.73942e-008 6.51482e-009 -0.277984";
+      surface = "0.707107 0 0 0.707107 -6.41024e-009 1.52917 -2.2175e-009";
+      surface = "0 0.707107 -0.707107 0 -1.84013e-008 -1.52917 1.41802e-010";
+      surface = "0.5 0.5 -0.5 0.5 -7.37418 -8.18432e-009 -7.9145e-009";
+      surface = "0.5 -0.5 0.5 0.5 7.37418 8.18432e-009 -7.9145e-009";
+   };
+   new ConvexShape() {
+      Material = "Grid512_Blue_Mat";
+      position = "-0.351144 6.76961 17.0853";
+      rotation = "-0.273506 0.267873 -0.923817 97.7312";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
+
+      surface = "0 0 0 1 -9.75177e-009 8.24244e-009 0.277984";
+      surface = "0 1 0 0 2.73942e-008 6.51482e-009 -0.277984";
+      surface = "0.707107 0 0 0.707106 -6.41024e-009 1.52917 -2.2175e-009";
+      surface = "0 0.707107 -0.707107 0 -1.84013e-008 -1.52917 1.41802e-010";
+      surface = "0.5 0.5 -0.5 0.5 -7.37418 -8.18432e-009 -7.9145e-009";
+      surface = "0.5 -0.5 0.5 0.5 7.37418 8.18432e-009 -7.9145e-009";
+   };
+   new Px3ParticleEmitterNode() {
+      active = "1";
+      emitter = "PhysicsEmitter";
+      velocity = "10";
+      dataBlock = "DefaultEmitterNodeData";
+      position = "-0.654137 11.4264 21.3545";
+      rotation = "0.0163402 -0.146002 0.989149 192.634";
+      scale = "1 1 1";
+      canSave = "1";
+      canSaveDynamicFields = "1";
    };
 };
 //--- OBJECT WRITE END ---

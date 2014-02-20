@@ -337,7 +337,7 @@
 				Name="source"
 				Filter="">
 				<File
-				   RelativePath="..\..\..\..\..\Engine\source\main\main.cpp">
+				   RelativePath="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\source\main\main.cpp">
 				</File>
 			</Filter>
 		</Filter>

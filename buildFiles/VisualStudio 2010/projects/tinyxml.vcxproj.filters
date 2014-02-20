@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{12551600-6f39-4fe1-bbee-8a1faa517a8f}</UniqueIdentifier>
+         <UniqueIdentifier>{b5e3d3b0-e3a9-47be-a491-8cdf2f57e869}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\lib">
-         <UniqueIdentifier>{74773afc-3959-4660-9989-e13a43815931}</UniqueIdentifier>
+         <UniqueIdentifier>{c86505aa-04ca-412d-acb8-36e298d976f5}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>
@@ -15,24 +15,24 @@
     </ResourceCompile>
   </ItemGroup>
    <ItemGroup>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinystr.cpp">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\tinyxml\tinystr.cpp">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxml.cpp">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\tinyxml\tinyxml.cpp">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxmlerror.cpp">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\tinyxml\tinyxmlerror.cpp">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxmlparser.cpp">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\tinyxml\tinyxmlparser.cpp">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
    </ItemGroup>
    <ItemGroup>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\tinyxml\tinystr.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\tinyxml\tinystr.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\tinyxml\tinyxml.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\tinyxml\tinyxml.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
    </ItemGroup>

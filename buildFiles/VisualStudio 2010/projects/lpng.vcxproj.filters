@@ -2,11 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
    <ItemGroup>
       <Filter Include="Source Files">
-         <UniqueIdentifier>{9c0b6739-683d-4228-8cd7-d2e61df2449b}</UniqueIdentifier>
+         <UniqueIdentifier>{9d75fea6-b68b-4f57-940e-53e2eb93f64d}</UniqueIdentifier>
          <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;cc</Extensions>
       </Filter>
       <Filter Include="Source Files\lib">
-         <UniqueIdentifier>{98d81850-16c6-4c95-bc32-92a471c33dc4}</UniqueIdentifier>
+         <UniqueIdentifier>{70fe1a52-b678-4d0f-808f-369d5379a3bd}</UniqueIdentifier>
       </Filter>
    </ItemGroup>
   <ItemGroup>
@@ -15,78 +15,78 @@
     </ResourceCompile>
   </ItemGroup>
    <ItemGroup>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\example.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\example.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\png.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\png.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngerror.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngerror.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngget.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngget.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngmem.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngmem.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngpread.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngpread.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngread.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngread.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrio.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngrio.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrtran.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngrtran.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngrutil.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngrutil.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngset.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngset.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngtest.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngtest.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngtrans.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngtrans.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwio.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngwio.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwrite.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngwrite.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwtran.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngwtran.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
-      <ClCompile Include="..\..\..\..\..\Engine\lib\lpng\pngwutil.c">
+      <ClCompile Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngwutil.c">
          <Filter>Source Files\lib</Filter>
       </ClCompile>
    </ItemGroup>
    <ItemGroup>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\png.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\png.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngconf.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngconf.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngdebug.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngdebug.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pnginfo.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pnginfo.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pnglibconf.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pnglibconf.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngpriv.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngpriv.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
-      <ClInclude Include="..\..\..\..\..\Engine\lib\lpng\pngstruct.h">
+      <ClInclude Include="C:\Users\Andrew\Documents\Projects\Torque3D-PhysX3\Engine\lib\lpng\pngstruct.h">
          <Filter>Source Files\lib</Filter>
       </ClInclude>
    </ItemGroup>
