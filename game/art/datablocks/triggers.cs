@@ -36,3 +36,7 @@ datablock TriggerData(ClientTrigger : DefaultTrigger)
 {
    clientSide = true;
 };
+
+datablock TriggerData(TowerTrigger : DefaultTrigger)
+{
+};

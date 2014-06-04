@@ -71,3 +71,8 @@ datablock PhysicsShapeData( PSCube )
    invulnerable = "0";
    waterDampingScale = "10";
 };
+// Cube that can activate triggers
+datablock PhysicsShapeData (PSCubeActivateTriggers : PSCube)
+{
+	activateTriggers = 1;
+};

@@ -26,8 +26,7 @@
 
 function DefaultTrigger::onEnterTrigger(%this,%trigger,%obj)
 {
-   // This method is called whenever an object enters the %trigger
-   // area, the object is passed as %obj.
+	echo(%obj.getClassName() @ " Entered trigger.");
 }
 
 function DefaultTrigger::onLeaveTrigger(%this,%trigger,%obj)
@@ -45,4 +44,17 @@ function DefaultTrigger::onTickTrigger(%this,%trigger)
    // methods:
    //    %trigger.getNumObjects();
    //    %trigger.getObject(n);
+}
+
+function TowerTrigger::onEnterTrigger(%this,%trigger,%obj)
+{
+	if (isObject(Tower))
+	{
+		Tower.delete();
+	}
+}
+
+function TowerTrigger::onLeaveTrigger(%this,%trigger,%obj)
+{
+
 }
