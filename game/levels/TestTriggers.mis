@@ -114,7 +114,7 @@ new SimGroup(MissionGroup) {
          rotation = "1 0 0 0";
          scale = "1 1 1";
    };
-   new PhysicsShape(PhysicsTriggerBox) {
+   new RigidPhysicsShape(PhysicsTriggerBox) {
       playAmbient = "0";
       dataBlock = "PSCubeActivateTriggers";
       position = "0.581773 8.0928 4.36773";

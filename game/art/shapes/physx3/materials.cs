@@ -66,3 +66,12 @@ singleton Material(FlagMat)
    glow[0] = "1";
    emissive[0] = "1";
 };
+
+singleton Material(tower__2___Default)
+{
+   mapTo = "_2_-_Default";
+   diffuseMap[0] = "tower";
+   specular[0] = "0.9 0.9 0.9 1";
+   specularPower[0] = "1";
+   translucentBlendOp = "None";
+};
